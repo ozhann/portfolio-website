@@ -4,11 +4,16 @@
   "description": "Ozhan Yilmaz",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.7.2"
+  },
+  "homepage": "https://ozhann.github.io/portfolio",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
