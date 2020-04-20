@@ -12,7 +12,7 @@
   "devDependencies": {
     "node-sass": "^4.7.2"
   },
-  "homepage": "www.ozhanyilmaz.com",
+  "homepage": "https://ozhann.github.io/portfolio-website/",
   "dependencies": {
     "gh-pages": "^2.2.0"
   }
