@@ -56,6 +56,13 @@ body {
   background-color: #fff;
 }
 
+@media (max-width: 56.25em) {
+  #profile-photo {
+    width: 75%;
+    margin-bottom: 20%;
+  }
+}
+
 @keyframes leftIn {
   0% {
     opacity: 0;
@@ -204,6 +211,7 @@ body {
 @media (max-width: 56.25em) {
   .heading-secondary {
     font-size: 3rem;
+    margin-top: 5rem;
   }
 }
 @media (max-width: 37.5em) {
@@ -288,11 +296,12 @@ body {
 @media (max-width: 56.25em) {
   .section-about {
     padding: 20rem 4rem;
+    /* margin-top: 0rem; */
   }
 }
 
 .section-features {
-  padding: 20rem;
+  padding: 20rem 0;
   background-image: linear-gradient(
       to right bottom,
       rgba(142, 57, 153, 0.75),
