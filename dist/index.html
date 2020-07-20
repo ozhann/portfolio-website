@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image" content="img/gearbox-static.png" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/icon-font.css">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    
     <title>Özhan Yılmaz | Software Engineer</title>
 </head>
 
@@ -18,16 +20,33 @@
 
     <header class="header " id="particles-js">
 
-       
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
         <div class="header__text-box">
-            <div>
-                <img src="img/profile.jpg" alt="avatar" id="profile-photo">
-            </div>
+
+            <div class="profile-heading">
+                <div>
+                    <img src="img/profile.jpg" alt="avatar" id="profile-photo">
+                </div>
+        
+                <div class="heading-primary">
+                    
+                    <h1 class="heading-primary--main">Özhan Yılmaz</h1>
+                    <span class="heading-primary--sub"></span>
+                    <script>
     
-            <h1 class="heading-primary">
-                <span class="heading-primary--main">Özhan Yılmaz</span>
-                <span class="heading-primary--sub">Full-Stack Developer</span>
-            </h1>
+                        var typed = new Typed('.heading-primary--sub', {
+                            strings: ['Full-Stack Developer', "Web Development", "MERN Stack"],
+                            typeSpeed: 60,
+                            backSpeed: 40,
+                            loop:true,
+                            showCursor: true,
+                          });
+                    </script>
+                </div>
+            </div>
+            
+            
 
             <a href="#projects" class="btn btn--white btn--animated smooth-goto">See Projects</a>
         </div>
@@ -45,25 +64,30 @@
             </div>
 
             <div class="row">
-                <div class="col-1-of-2">
+                <div>
                     <h3 class="heading-tertiary u-margin-bottom-small">About me</h3>
                     <p class="paragraph">
-                        I am a Computer Science graduate with a MBA degree. I have a passion to build meaningful apps with cutting edge web technologies as a coding enthusiast and a lifelong learner.
-                        <br>I also like to train for marathon and mix songs in my free time.
+                        Hi, my name is Özhan and I am a web developer with a passion for front-end technologies. I aspire toward a career that will allow me to experience latest technologies through building beautiful apps and exchange knowledge along the way.
+                        <br>
+                        <br>
+                        When i am not coding, I enjoy training at the gym, swimming and mix songs.
                     </p>
-                    <h3 class="heading-tertiary u-margin-bottom-small">An Agile Collaborator</h3>
+                    <p class="paragraph">
+                        
+                    </p>
+                    <!-- <h3 class="heading-tertiary u-margin-bottom-small">An Agile Collaborator</h3>
                     <p class="paragraph">
                        I use continuous iteration to produce results quickly and continuously improve products. I would love to work with other developers to exchange our knowledge to increase our skillset.
-                    </p>
+                    </p> -->
 
                 </div>
-                <div class="col-1-of-2">
+                <!-- <div class="col-1-of-2">
                     <div class="composition">
                         <img src="img/javascript.png" alt="JS" class="composition__photo composition__photo--p1">
                         <img src="img/nodejs.png" alt="Node" class="composition__photo composition__photo--p3">
                         <img src="img/react.png" alt="React" class="composition__photo composition__photo--p2">
                     </div>
-                </div>
+                </div> -->
             </div>
 
         </section>
@@ -78,8 +102,8 @@
                             <ul>
                                 <li>HTML5</li>
                                 <li>CSS3 | SASS</li>
-                                <li>JavaScript</li>
-                                <li>React</li>
+                                <li>JavaScript | ES6+</li>
+                                <li>React | Redux</li>
                             </ul>
                         </p>
                     </div>
@@ -101,12 +125,12 @@
                 <div class="col-1-of-3">
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-cloud"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">Deployment</h3>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Testing & Deployment</h3>
                         <p class="feature-box__text">
                             <ul>
+                                <li>Jest</li>
                                 <li>Heroku</li>
                                 <li>Firebase</li>
-                                <li>Docker</li>
                                 <li>Git</li>
                             </ul>
                         </p>
@@ -123,55 +147,56 @@
                 </h2>
             </div>
             <div class="row">
-                <div class="col-1-of-2">
+                <div class="col-1-of-2 single-col">
                     <div class="card">
                         <div class="card__side card__side--front card__side--front-1">
-                            <div class="card__picture card__picture--1">
-                                &nbsp;
-                            </div>
-                            <img src="img/gear.png" class="card__svg-icon spin" alt="">
-                            <h4 class="card__heading">
+                           
+                            <!-- <img src="img/gear.png" class="card__svg-icon spin" alt=""> -->
+                            <!-- <h4 class="card__heading">
 
                                 <span class="card__heading-span--1">
-                                    Real Time Chat App
+                                    Quiz App
                                 </span>
                             </h4>
                             <div class="card__details">
                                 <ul>
-                                    <li>React | Hooks</li>
-                                    <li>Socket.io</li>
+                                    <li>React Hooks</li>
                                     <li>Node</li>
-                                    <li>Express</li>
                                 </ul>
-                            </div>
+                            </div> -->
+                            
+
                         </div>
                         <div class="card__side card__side--back card__side--back-1">
-
+                            <h4 class="card__heading">
+                                QUIZ APP
+                            </h4>
                             <div class="card__cta">
 
                                 <div class="card__box">
+                                    
                                     <div class="card__description">
                                         <p>
-                                            Real time chat application build with React and Socket.io
+                                            Quiz application developed with React and Trivia API
                                         </p>
                                     </div>
                                 </div>
-                                <a href="https://github.com/ozhann/chat-app" target="_blank" class="btn btn--white btn--github">Source Code</a>
-                                <a href="https://react-chat-socket.netlify.app/" class="btn btn--white btn--github">Demo</a>
+                                <a href="https://github.com/ozhann/quiz-app" target="_blank" class="btn btn--white btn--github">Source Code</a>
+                                <a href="https://react-quizz-app.netlify.app/" target="_blank" class="btn btn--white btn--github">Demo</a>
 
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-1-of-2">
+                <div class="col-1-of-2 single-col">
                     <div class="card">
-                        <div class="card__side card__side--front card__side--front-2">
+                        <!-- <div class="card__side card__side--front card__side--front-2">
                             <div class="card__picture card__picture--6">
                                 &nbsp;
                             </div>
                             <div class="card__heading">
                                 <span class="card__heading-span--6">
-                                    eCommerce App
+                                    eCommerce Application 
                                 </span>
                             </div>
                             <div class="card__details">
@@ -182,13 +207,16 @@
                                     <li>Stripe API</li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="card__side card__side--back card__side--back-6">
+                            <h4 class="card__heading">
+                                Ecommerce APP
+                            </h4>
                             <div class="card__cta">
                                 <div class="card__box">
                                     <div class="card__description">
                                         <p>
-                                            Online shop with shopping cart and Stripe payment
+                                            Online shop with shopping cart and Stripe payment built with MERN stack
                                         </p>
                                     </div>
                                 </div>
@@ -207,7 +235,7 @@
                 <div class="row">
                     <div class="col-1-of-2 single-col">
                         <div class="card">
-                            <div class="card__side card__side--front card__side--front-3">
+                            <!-- <div class="card__side card__side--front card__side--front-3">
                                 <div class="card__picture card__picture--3">
                                     &nbsp;
                                 </div>
@@ -218,19 +246,22 @@
                                 </div>
                                 <div class="card__details">
                                     <ul>
-                                        <li>React | Hooks</li>
-                                        <li>React dnd</li>
+                                        <li>React Hooks</li>
+                                        <li>React DnD</li>
                                         <li>Node</li>
                                         <li>Express</li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="card__side card__side--back card__side--back-3">
+                                <h4 class="card__heading">
+                                    Trello clone
+                                </h4>
                                 <div class="card__cta">
                                     <div class="card__box">
                                         <div class="card__description">
                                             <p>
-                                                Trello clone with drag and drop functionality
+                                                Trello clone with drag and drop functionality built with React
                                             </p>
                                         </div>
                                     </div>
@@ -244,7 +275,7 @@
 
                     <div class="col-1-of-2 single-col">
                         <div class="card">
-                            <div class="card__side card__side--front card__side--front-2">
+                            <!-- <div class="card__side card__side--front card__side--front-2">
                                 <div class="card__picture card__picture--2">
                                     &nbsp;
                                 </div>
@@ -255,18 +286,21 @@
                                 </div>
                                 <div class="card__details">
                                     <ul>
-                                        <li>React | Hooks</li>
+                                        <li>React Hooks</li>
                                         <li>ChartJS</li>
                                         <li>Node</li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="card__side card__side--back card__side--back-2">
+                                <h4 class="card__heading">
+                                    Corona tracker APP
+                                </h4>
                                 <div class="card__cta">
                                     <div class="card__box">
                                         <div class="card__description">
                                             <p>
-                                                Corona analyzer tool that shows infected, death and recovered cases around the world.
+                                                Corona case tracker tool that shows data around the world, built with ChartJS.
                                             </p>
                                         </div>
                                     </div>
